@@ -1,0 +1,6 @@
+#! /bin/sh
+
+cd /usr/lib/python3/dist-packages/webencodings
+for py in $(py3versions -s); do
+  $py -m nose -v
+done

@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=webencodings
+#export PYBUILD_VERBOSE=1
+#export DH_VERBOSE=1
+
+export PYBUILD_TEST_NOSE=1
+
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild

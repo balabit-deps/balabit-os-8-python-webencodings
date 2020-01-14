@@ -1,0 +1,3 @@
+Tests: py2 py3
+Depends: @, python2, python-nose, python3-all, python3-nose
+Restrictions: allow-stderr

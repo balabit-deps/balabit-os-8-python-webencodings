@@ -1,0 +1,43 @@
+python-webencodings (0.5.1-1ubuntu1) focal; urgency=medium
+
+  * Build-depend on python-all.
+  * Use python2 in the autopkg test.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 14 Jan 2020 12:17:10 +0100
+
+python-webencodings (0.5.1-1build1) focal; urgency=medium
+
+  * No-change rebuild to generate dependencies on python2.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 17 Dec 2019 12:44:50 +0000
+
+python-webencodings (0.5.1-1) unstable; urgency=medium
+
+  [ Barry Warsaw ]
+  * d/control: Put DPMT in Maintainers and myself in Uploaders.
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/control: Remove ancient X-Python-Version field
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Scott Kitterman ]
+  * New upstream release
+  * Bump standards-version to 4.3.0 without further change
+  * Add autopkgtest
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 24 Dec 2018 17:31:09 -0500
+
+python-webencodings (0.5-2) unstable; urgency=medium
+
+  * d/rules: Run tests via nose at build time.
+  * d/control: Add python{,3}-nose to Build-Depends.
+
+ -- Barry Warsaw <barry@debian.org>  Thu, 05 Jan 2017 10:30:19 -0500
+
+python-webencodings (0.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #842738)
+
+ -- Barry Warsaw <barry@debian.org>  Fri, 11 Nov 2016 16:16:54 -0500

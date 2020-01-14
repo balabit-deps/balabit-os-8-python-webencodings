@@ -1,0 +1,4 @@
+#! /bin/sh
+
+cd /usr/lib/python2.7/dist-packages/webencodings
+python2 -m nose -v
